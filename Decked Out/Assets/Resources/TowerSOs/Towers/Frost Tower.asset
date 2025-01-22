@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b63ac3b6aeaf6fa44a10cc50c8b99acd, type: 3}
+  m_Name: Frost Tower
+  m_EditorClassIdentifier: 
+  towerName: Frost Emitter
+  background: {fileID: 21300000, guid: 22650383234d3e24ca9131310b52bf04, type: 3}
+  image: {fileID: 21300000, guid: cdea1b9c376640c4c9fe133e0b54cdce, type: 3}
+  icon: {fileID: 21300000, guid: 3a850c90f79c14f47bc19e23774b7763, type: 3}
+  rarityColor: {r: 0.1137255, g: 0.49803925, b: 0.3803922, a: 1}
+  towerInfo: Brrr! That's cold man, ice cold.
+  uses: 0
+  rarityWeight: 25
+  damage: 0
+  range: 2
+  rateOfFire: 99
+  duration: 4
+  spell: 0

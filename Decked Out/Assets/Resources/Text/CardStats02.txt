@@ -1,0 +1,3 @@
+﻿<align=center><sprite index= “06”>
+This symbol represents the rate of fire the tower.
+This is how fast the tower fires at its unsuspecting but very deserving enemies.

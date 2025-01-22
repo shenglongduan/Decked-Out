@@ -1,0 +1,4 @@
+﻿At the bottom of your screen, you will notice several cards.
+I have stacked your deck to the best of my ability. 
+Drag out any of the cards with the tower symbol: 
+<align=center><sprite index=0>

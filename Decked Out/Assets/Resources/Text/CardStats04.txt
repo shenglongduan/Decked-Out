@@ -1,0 +1,3 @@
+﻿<align=center><sprite index= “03”>
+This symbol represents the duration of the tower in waves.
+The higher the rariry the longer towers last. 

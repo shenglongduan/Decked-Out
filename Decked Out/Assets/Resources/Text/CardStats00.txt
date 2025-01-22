@@ -1,0 +1,3 @@
+﻿This is the Card Stats Panel!
+It tells you all you need to know about this particular card.
+Each of the little symbols stands for something or other.

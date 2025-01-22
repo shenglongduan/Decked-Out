@@ -1,0 +1,2 @@
+﻿<align=center><sprite index=04>
+This symbol represents how much damage each impact of this tower inflicts.

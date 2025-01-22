@@ -1,0 +1,3 @@
+﻿This is a Tower! Your main line of defense.
+Its range is represented by the green circle, which will change to red if you cannot place it.
+Try placing the tower anywhere you can!

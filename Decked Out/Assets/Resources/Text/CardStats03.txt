@@ -1,0 +1,5 @@
+﻿<align=center><sprite index= “05”>
+This symbol represents the range of the tower.
+You can also see this value in the little <color=green> circle </color> when placing the tower.
+If the circle goes <color=red> red </color> then you are unable to place a tower there.
+If the circle goes <color=#F7CD91> gold </color> then you are placing the tower on the <i>island</i>.

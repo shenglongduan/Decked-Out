@@ -1,0 +1,1 @@
+﻿shoots arrows at enemies. The arrows hurt. A lot.

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4351348705591646305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2587695880443528699}
+  - component: {fileID: 5194637593756119149}
+  m_Layer: 0
+  m_Name: MadGameSaveSystem
+  m_TagString: MidGameSaveSystem
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2587695880443528699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4351348705591646305}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.41278642, y: -0.7645786, z: -0.038236223}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5194637593756119149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4351348705591646305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6fa87c0bffa30c41bfac00eca7ca7a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  castleHealth: 0
+  waveCount: 0
+  killCount: 0
+  gemCount: 0
+  cardInPlay: []
+  towersObj:
+  - {fileID: 7405903770306088367, guid: 701360c609ace1640886a48c4f28bbf1, type: 3}
+  - {fileID: 7405903770306088367, guid: 7ff0f0660475d354db2ad64019aa29fb, type: 3}
+  - {fileID: 7405903770306088367, guid: a75e815b98551d641a9295d6ed872483, type: 3}
+  - {fileID: 7405903770306088367, guid: 6867a10647dd9564199cce2e5c8bdf2c, type: 3}
+  - {fileID: 7405903770306088367, guid: 6cc4e1f99b55745418aed0a7bb269caf, type: 3}
+  - {fileID: 7405903770306088367, guid: 6eb559def213d1744aa533571eff06a0, type: 3}
+  - {fileID: 7405903770306088367, guid: f4a8e82713f4edb4b945610bef38e553, type: 3}
+  - {fileID: 7405903770306088367, guid: 1d7e1fe28b87c9a4b938338a1bd6ed8f, type: 3}
+  - {fileID: 7405903770306088367, guid: a7932129be76c854b884a92dc799e7b7, type: 3}
+  - {fileID: 7405903770306088367, guid: fb8accea86df60049b36eba9687a120f, type: 3}
+  - {fileID: 7405903770306088367, guid: df6b3cf9edc79e84ab757534356af86c, type: 3}
+  - {fileID: 7405903770306088367, guid: 9651cef698a667349a0c68dcc51523bd, type: 3}
+  - {fileID: 7405903770306088367, guid: d8efcc1d0c5b25c429accf097ea417be, type: 3}
+  - {fileID: 7405903770306088367, guid: a9215c070c0fa9248b7525c00208d8ba, type: 3}
+  - {fileID: 7405903770306088367, guid: 9ebd6449d0b13dd49acb6d45f1dbd4fd, type: 3}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b63ac3b6aeaf6fa44a10cc50c8b99acd, type: 3}
+  m_Name: Sniper Tower
+  m_EditorClassIdentifier: 
+  towerName: Sniper Nest
+  background: {fileID: 21300000, guid: c397d2a97e44f524789af0621caae778, type: 3}
+  image: {fileID: 21300000, guid: a9ec957370ec8104aa52336a0d9dc60e, type: 3}
+  icon: {fileID: 21300000, guid: d0ecb514b0dec684f97a1e06d5a126ff, type: 3}
+  rarityColor: {r: 0.35686275, g: 0.35686275, b: 0.35686275, a: 1}
+  towerInfo: Shoots pointy things at far away bad guys!
+  uses: 0
+  rarityWeight: 35
+  damage: 60
+  range: 3.5
+  rateOfFire: 1
+  duration: 4
+  spell: 0

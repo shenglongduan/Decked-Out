@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5882417404681722139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5882417404681722141}
+  - component: {fileID: 5882417404681722138}
+  m_Layer: 0
+  m_Name: CardRandoEngine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5882417404681722141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5882417404681722139}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1059.5486, y: 105.12713, z: -3.0475433}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5882417404681722138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5882417404681722139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a451b829001e7cd41b2c72035372e02b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveManager: {fileID: 0}
+  towerSelection: {fileID: 0}
+  cardSpace0: {fileID: 0}
+  cardSpace1: {fileID: 0}
+  cardSpace2: {fileID: 0}
+  cardSpace3: {fileID: 0}
+  cardSpace4: {fileID: 0}
+  handSize: 0
+  card0Data: {fileID: 0}
+  card0Name: 
+  card0TowerImage: {fileID: 0}
+  card0TowerID: 0
+  card1Data: {fileID: 0}
+  card1Name: 
+  card1TowerImage: {fileID: 0}
+  card1TowerID: 0
+  card2Data: {fileID: 0}
+  card2Name: 
+  card2TowerImage: {fileID: 0}
+  card2TowerID: 0
+  card3Data: {fileID: 0}
+  card3Name: 
+  card3TowerImage: {fileID: 0}
+  card3TowerID: 0
+  card4Data: {fileID: 0}
+  card4Name: 
+  card4TowerImage: {fileID: 0}
+  card4TowerID: 0
+  towerCards:
+  - {fileID: 11400000, guid: 8430b8eca9945e34cbcdec8e2ff926ba, type: 2}
+  - {fileID: 11400000, guid: beb6c0bf0cacdb545ac0a525d40c9432, type: 2}
+  - {fileID: 11400000, guid: f3b9932f60e217e4f8da4b2bc39894f2, type: 2}
+  - {fileID: 11400000, guid: a594bc4f654a0324c9f522defa7f346b, type: 2}

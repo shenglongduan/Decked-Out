@@ -1,0 +1,1167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3161876444809573594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7415926981351335748}
+  - component: {fileID: 8719996008483846069}
+  m_Layer: 0
+  m_Name: WaveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7415926981351335748
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3161876444809573594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8719996008483846069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3161876444809573594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e4b46fd67419dc49b8624a4d9558a55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - numberOfEnemies: 3
+    timeBetweenEnemies: 2.5
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 5
+    timeBetweenEnemies: 2.5
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 10
+    timeBetweenEnemies: 2.5
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.8
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0.2
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 15
+    timeBetweenEnemies: 2.5
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.6
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0.4
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 25
+    timeBetweenEnemies: 2
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.7
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0.15
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.15
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 30
+    timeBetweenEnemies: 2
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.6
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0.2
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.2
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 35
+    timeBetweenEnemies: 2
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.6
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0.1
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.2
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.1
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 40
+    timeBetweenEnemies: 2
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.5
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0.2
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.15
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.15
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 45
+    timeBetweenEnemies: 2
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.5
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0.15
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.15
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.2
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 100
+    timeBetweenEnemies: 2
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.5
+    - enemyType: Apostate
+      spawnPercentage: 0.1
+    - enemyType: Kaboom
+      spawnPercentage: 0.15
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.15
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.1
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1.95
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.5
+    - enemyType: Apostate
+      spawnPercentage: 0.15
+    - enemyType: Kaboom
+      spawnPercentage: 0.15
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.1
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.1
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1.9
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.4
+    - enemyType: Apostate
+      spawnPercentage: 0.1
+    - enemyType: Kaboom
+      spawnPercentage: 0.3
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.1
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.1
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1.85
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.4
+    - enemyType: Apostate
+      spawnPercentage: 0.2
+    - enemyType: Kaboom
+      spawnPercentage: 0.1
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.15
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.15
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1.8
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.4
+    - enemyType: Apostate
+      spawnPercentage: 0.15
+    - enemyType: Kaboom
+      spawnPercentage: 0.15
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.15
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.15
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 100
+    timeBetweenEnemies: 1.75
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.4
+    - enemyType: Apostate
+      spawnPercentage: 0.1
+    - enemyType: Kaboom
+      spawnPercentage: 0.15
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.1
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.1
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0.15
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1.7
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.4
+    - enemyType: Apostate
+      spawnPercentage: 0.1
+    - enemyType: Kaboom
+      spawnPercentage: 0.1
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.1
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.1
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0.2
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1.65
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.3
+    - enemyType: Apostate
+      spawnPercentage: 0.15
+    - enemyType: Kaboom
+      spawnPercentage: 0.2
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.1
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.15
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0.1
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1.6
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.3
+    - enemyType: Apostate
+      spawnPercentage: 0.1
+    - enemyType: Kaboom
+      spawnPercentage: 0.2
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.2
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.1
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0.1
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1.55
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.3
+    - enemyType: Apostate
+      spawnPercentage: 0.1
+    - enemyType: Kaboom
+      spawnPercentage: 0.2
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.1
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.2
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0.1
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 100
+    timeBetweenEnemies: 1.5
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.4
+    - enemyType: Apostate
+      spawnPercentage: 0.1
+    - enemyType: Kaboom
+      spawnPercentage: 0.1
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.1
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.1
+    - enemyType: Necromancer
+      spawnPercentage: 0.1
+    - enemyType: Aegis
+      spawnPercentage: 0.1
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1.45
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.3
+    - enemyType: Apostate
+      spawnPercentage: 0.1
+    - enemyType: Kaboom
+      spawnPercentage: 0.1
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.1
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.1
+    - enemyType: Necromancer
+      spawnPercentage: 0.2
+    - enemyType: Aegis
+      spawnPercentage: 0.1
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1.4
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.4
+    - enemyType: Apostate
+      spawnPercentage: 0.2
+    - enemyType: Kaboom
+      spawnPercentage: 0.3
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.05
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0.05
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1.35
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.3
+    - enemyType: Apostate
+      spawnPercentage: 0.15
+    - enemyType: Kaboom
+      spawnPercentage: 0.1
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.25
+    - enemyType: Necromancer
+      spawnPercentage: 0.1
+    - enemyType: Aegis
+      spawnPercentage: 0.1
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1.3
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.3
+    - enemyType: Apostate
+      spawnPercentage: 0.1
+    - enemyType: Kaboom
+      spawnPercentage: 0.2
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.1
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.1
+    - enemyType: Necromancer
+      spawnPercentage: 0.1
+    - enemyType: Aegis
+      spawnPercentage: 0.1
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 100
+    timeBetweenEnemies: 1.25
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.4
+    - enemyType: Apostate
+      spawnPercentage: 0.1
+    - enemyType: Kaboom
+      spawnPercentage: 0.1
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.05
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0.1
+    - enemyType: Golem
+      spawnPercentage: 0.1
+    - enemyType: Necromancer
+      spawnPercentage: 0.1
+    - enemyType: Aegis
+      spawnPercentage: 0.05
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1.2
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.3
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0.25
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0.25
+    - enemyType: Golem
+      spawnPercentage: 0.1
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0.1
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1.15
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.3
+    - enemyType: Apostate
+      spawnPercentage: 0.2
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0.1
+    - enemyType: Golem
+      spawnPercentage: 0.2
+    - enemyType: Necromancer
+      spawnPercentage: 0.1
+    - enemyType: Aegis
+      spawnPercentage: 0.1
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1.1
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.3
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0.1
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.2
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.2
+    - enemyType: Necromancer
+      spawnPercentage: 0.2
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1.05
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.3
+    - enemyType: Apostate
+      spawnPercentage: 0.2
+    - enemyType: Kaboom
+      spawnPercentage: 0.2
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.15
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0.15
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 100
+    timeBetweenEnemies: 1
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.2
+    - enemyType: Apostate
+      spawnPercentage: 0.1
+    - enemyType: Kaboom
+      spawnPercentage: 0.1
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.1
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0.1
+    - enemyType: Golem
+      spawnPercentage: 0.1
+    - enemyType: Necromancer
+      spawnPercentage: 0.1
+    - enemyType: Aegis
+      spawnPercentage: 0.1
+    - enemyType: Cleric
+      spawnPercentage: 0.1
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.3
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0.1
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0.2
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0.2
+    - enemyType: Cleric
+      spawnPercentage: 0.2
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 0.3
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0.1
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0.15
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0.15
+    - enemyType: Golem
+      spawnPercentage: 0.1
+    - enemyType: Necromancer
+      spawnPercentage: 0.2
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 1
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 100
+    timeBetweenEnemies: 1
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 0.95
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 0.9
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 0.85
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 0.8
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 100
+    timeBetweenEnemies: 0.75
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 0.7
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 0.65
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 0.6
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 0.55
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 100
+    timeBetweenEnemies: 0.5
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 0.45
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 0.4
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 0.35
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 50
+    timeBetweenEnemies: 0.3
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  - numberOfEnemies: 500
+    timeBetweenEnemies: 0.25
+    timeBetweenWaves: 2
+    enemySpawnInfos:
+    - enemyType: Acolyte
+      spawnPercentage: 1
+    - enemyType: Apostate
+      spawnPercentage: 0
+    - enemyType: Kaboom
+      spawnPercentage: 0
+    - enemyType: Mopey_Misters
+      spawnPercentage: 0
+    - enemyType: Zoom_Zealots
+      spawnPercentage: 0
+    - enemyType: Golem
+      spawnPercentage: 0
+    - enemyType: Necromancer
+      spawnPercentage: 0
+    - enemyType: Aegis
+      spawnPercentage: 0
+    - enemyType: Cleric
+      spawnPercentage: 0
+  enemyPrefab: {fileID: 3913288999114805945, guid: 59d3508bbaa1f8340a03f638ecfcc487, type: 3}
+  KaboomPrefab: {fileID: 3913288999114805945, guid: f1862827c278b8f4ba6d1c6eebc4b423, type: 3}
+  GolemPrefab: {fileID: 3913288999114805945, guid: 245fe243352756e46944c4a8c4be652b, type: 3}
+  Apostate_Prefab: {fileID: 3913288999114805945, guid: c70a52559804d664e90af3b6f01d409b, type: 3}
+  necromancer: {fileID: 3913288999114805945, guid: 085feb032e4f09f438afc1bf1ddccf45, type: 3}
+  aegis: {fileID: 3913288999114805945, guid: 67fda4b96e612154e8b3ba394081599b, type: 3}
+  cleric: {fileID: 3913288999114805945, guid: 5afd2464fad22604b87fad74e784078d, type: 3}
+  Mopey_prefab: {fileID: 3913288999114805945, guid: fcdf874c7d4d5aa4a910450d38681409, type: 3}
+  Zealots_prefab: {fileID: 3913288999114805945, guid: c0e5c9b96179efa499a8962b7c25ca14, type: 3}
+  Mistake_Prefab: {fileID: 3913288999114805945, guid: 197e2cbb07dd16648a1c47279ccb053f, type: 3}
+  unitSquareSize: 20
+  TowersLeft: 5
+  kaboomEnemy: 0
+  healthSliderPrefab: {fileID: 956535979688031471, guid: d8d74a3c455cbbd42ac012beff27c121, type: 3}
+  towersLeftText: {fileID: 0}
+  collisionOccurred: 0
+  cardRandoEngine: {fileID: 0}
+  towersPlaced: 0
+  currentWave: 0
+  deck_Building: {fileID: 0}

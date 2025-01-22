@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b63ac3b6aeaf6fa44a10cc50c8b99acd, type: 3}
+  m_Name: Organ Gun
+  m_EditorClassIdentifier: 
+  towerName: Organ Blaster
+  background: {fileID: 21300000, guid: 7b276240032b8fa419849ff5eeba1a8e, type: 3}
+  image: {fileID: 21300000, guid: c030e466abbd60b4fbdd57854afabd7b, type: 3}
+  icon: {fileID: 21300000, guid: d0ecb514b0dec684f97a1e06d5a126ff, type: 3}
+  rarityColor: {r: 0.20000002, g: 0.34117648, b: 0.7176471, a: 1}
+  towerInfo: Blast them away with the power of music.
+  uses: 0
+  rarityWeight: 35
+  damage: 60
+  range: 6
+  rateOfFire: 5
+  duration: 1
+  spell: 0

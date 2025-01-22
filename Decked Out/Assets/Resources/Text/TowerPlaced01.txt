@@ -1,0 +1,3 @@
+﻿Different towers have different abilities.
+Try holding down on a tower’s card in your hand.
+You will see its abilities.

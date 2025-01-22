@@ -1,0 +1,5 @@
+﻿Welcome {playername}, to Decked Out! I am {god name}, your personal god.
+
+Your castle has been targeted by the forces of evil. 
+
+Luckily I am here.
